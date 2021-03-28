@@ -2,7 +2,7 @@
 
 This is the demo code for soft robot kinematics computing based on geometry computing, which is the implementation of paper:
 
-* "Kinematics of soft robots by geometric computing", Guoxin Fang, Christopher-Denny Matte, Rob B.N. Scharff, Tsz-Ho Kwok, and Charlie C.L. Wang. IEEE Transactions on Robotics, vol.36, no.4, pp.1272-1286, August 2020.
+* "Kinematics of soft robots by geometric computing", Guoxin Fang, Christopher-Denny Matte, Rob B.N. Scharff, Tsz-Ho Kwok, and Charlie C.L. Wang. IEEE Transactions on Robotics, vol.36, no.4, pp.1272-1286, August 2020. (https://ieeexplore.ieee.org/document/9082704).
 
 ## Installation
 
