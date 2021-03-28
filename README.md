@@ -14,7 +14,7 @@ Tested platform:
 
 ## Usage
 
-Input soft robot models in Open->"soro_body.tet", this is the tetrahedron mesh includes body elements and actuation elements.
+Input soft robot models in File->Open->"soro_body.tet", this is the tetrahedron mesh includes body elements and actuation elements.
 
 Before kinematics computing, press the buttom "pre-process system", it will import the pre-defined chamber selection file installed in "soro_chamber.txt" and "soro_rigid_handle.txt".
 
