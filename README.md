@@ -1,4 +1,4 @@
-# SoftRobotKinematics
+# Soft Robot Kinematics
 
 This is the demo code for soft robot kinematics computing based on geometry computing, which is the implementation of paper:
 
