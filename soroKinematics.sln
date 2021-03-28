@@ -1,0 +1,44 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "QMeshLib", "QMeshLib\QMeshLib.vcxproj", "{2114EEA1-34EE-3B4E-8BF8-4C85EDE7F47B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GLKLib", "GLKLib\GLKLib.vcxproj", "{5AD504DA-075C-3DA5-A332-8481E7CD5627}"
+	ProjectSection(ProjectDependencies) = postProject
+		{2114EEA1-34EE-3B4E-8BF8-4C85EDE7F47B} = {2114EEA1-34EE-3B4E-8BF8-4C85EDE7F47B}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ShapeLab", "ShapeLab\ShapeLab.vcxproj", "{4E6E830B-CCAD-3D13-AB21-058257254517}"
+	ProjectSection(ProjectDependencies) = postProject
+		{2114EEA1-34EE-3B4E-8BF8-4C85EDE7F47B} = {2114EEA1-34EE-3B4E-8BF8-4C85EDE7F47B}
+		{5AD504DA-075C-3DA5-A332-8481E7CD5627} = {5AD504DA-075C-3DA5-A332-8481E7CD5627}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2114EEA1-34EE-3B4E-8BF8-4C85EDE7F47B}.Debug|x64.ActiveCfg = Debug|x64
+		{2114EEA1-34EE-3B4E-8BF8-4C85EDE7F47B}.Debug|x64.Build.0 = Debug|x64
+		{2114EEA1-34EE-3B4E-8BF8-4C85EDE7F47B}.Release|x64.ActiveCfg = Release|x64
+		{2114EEA1-34EE-3B4E-8BF8-4C85EDE7F47B}.Release|x64.Build.0 = Release|x64
+		{5AD504DA-075C-3DA5-A332-8481E7CD5627}.Debug|x64.ActiveCfg = Debug|x64
+		{5AD504DA-075C-3DA5-A332-8481E7CD5627}.Debug|x64.Build.0 = Debug|x64
+		{5AD504DA-075C-3DA5-A332-8481E7CD5627}.Release|x64.ActiveCfg = Release|x64
+		{5AD504DA-075C-3DA5-A332-8481E7CD5627}.Release|x64.Build.0 = Release|x64
+		{4E6E830B-CCAD-3D13-AB21-058257254517}.Debug|x64.ActiveCfg = Debug|x64
+		{4E6E830B-CCAD-3D13-AB21-058257254517}.Debug|x64.Build.0 = Debug|x64
+		{4E6E830B-CCAD-3D13-AB21-058257254517}.Release|x64.ActiveCfg = Release|x64
+		{4E6E830B-CCAD-3D13-AB21-058257254517}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		Qt5Version = msvc2017_64
+		SolutionGuid = {6A0881E0-F813-4CBA-B2B3-2F9173834E55}
+	EndGlobalSection
+EndGlobal
