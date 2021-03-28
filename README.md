@@ -18,9 +18,11 @@ Input soft robot models in Open->"soro_body.tet", this is the tetrahedron mesh i
 
 Before kinematics computing, press the buttom "pre-process system", it will import the pre-defined chamber selection file installed in "soro_chamber.txt" and "soro_rigid_handle.txt".
 
-Forward Kinematics: define actuator parameter in the spinbox (prefer within the range [1,3.5])
+Run Forward Kinematics: define actuator parameter in the spinbox (prefer within the range [1,3.5]) and press 'forward kinematics' buttom.
 
-Inverse Kinematics: press buttom "Inverse Kinemtaics".
+Run Inverse Kinematics: press buttom "Inverse Kinemtaics". Notice that IK computing by numerical-based simulation can be slow, please check our recent work for real-time IK computing
+
+* "Jacobian-based learning for inverse kinematics of soft robots", Guoxin Fang, Yingjun Tian, Zhi-Xin Yang, Jo MP Geraedts, Charlie CL Wang, (https://arxiv.org/abs/2012.13965).
 
 ## Contact
 
