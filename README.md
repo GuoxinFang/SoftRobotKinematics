@@ -11,6 +11,7 @@ Please compline the code with QMake file 'soroKinematics.pro'.
 Tested platform: 
 * MacOS: QT Creator 
 * Windows: Visual Studio + QT-plugin (tested QT version: 5.12.10)
+
   (Remark: Please enable OpenMP acceleration in Visual Studio environment)
 
 ## Usage
