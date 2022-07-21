@@ -26,7 +26,9 @@ you may first check and find 'Qt5Core.dll', 'Qt5Gui.dll', and 'Qt5Wdgets.dll' in
 For Debug mode, you need to add 'Qt5Cored.dll', 'Qt5Guid.dll', and 'Qt5Wdgetsd.dll' to '../shapeLab/debug/' folder.
 
 - **OPENGL issue** if you meet with any issue with "unresolved external symbol _xxx_glxxx", 
+
 at: 'Configuration Proerties-> General -> Additional Include Directories -> add '..\packages\opengl\gl'
+
 at: 'Configuration Proerties -> Linker -> Input -> Additional Dependencies -> add 'opengl32.lib' and 'glu32.lib'
 
 ## Usage
