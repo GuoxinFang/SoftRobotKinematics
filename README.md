@@ -9,10 +9,25 @@ This is the demo code for soft robot kinematics computing based on geometry comp
 Please compline the code with QMake file 'soroKinematics.pro'.
 
 Tested platform: 
-* MacOS: QT Creator 
-* Windows: Visual Studio + QT-plugin (tested QT version: 5.12.10)
+macOS: QT Creator 
 
-  (Remark: Please enable OpenMP acceleration in Visual Studio environment)
+**Windows (recommand)**: Visual Studio + QT-plugin (tested QT version: 5.12.10 + msvc2017_64)
+
+**Remark**: if you are using Visual Studio, after using QT VS Tool to open the .pro file and generate the project,
+
+- **Set 'shapeLab' as the start up project**
+
+- **Enable OpenMP to get best performace** at: ShapeLab Project Property -> 'Configuration Proerties' -> c/c++ -> Language -> Open MP Support -> Select 'Yes (/openmp)'
+
+- **Open Console** at: ShapeLab Project Property -> 'Configuration Proerties' -> Linker -> System -> Select 'Console (/SUBSYSTEM:CONSOLE)' in 'SubSystem'
+
+- **QT verstion** if you install a different qt version and meet with an issue open the UI after compile the project, 
+you may first check and find 'Qt5Core.dll', 'Qt5Gui.dll', and 'Qt5Wdgets.dll' in the QT installed folder and add to '../shapeLab/release/' folder (Visual Studio will generate this folder after you compile the project). 
+For Debug mode, you need to add 'Qt5Cored.dll', 'Qt5Guid.dll', and 'Qt5Wdgetsd.dll' to '../shapeLab/debug/' folder.
+
+- **OPENGL issue** if you meet with any issue with "unresolved external symbol _xxx_glxxx", 
+at: 'Configuration Proerties-> General -> Additional Include Directories -> add '..\packages\opengl\gl'
+at: 'Configuration Proerties -> Linker -> Input -> Additional Dependencies -> add 'opengl32.lib' and 'glu32.lib'
 
 ## Usage
 
